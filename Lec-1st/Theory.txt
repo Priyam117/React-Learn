@@ -1,0 +1,23 @@
+1. What is Emmet ...?
+Ans - Emmet is a plugin or developer tool kit that helps make your work faster and substantially enhances HTML and CSS workflows.
+
+2. What is CDN? Why do we use it?
+Ans. A CDN (content delivery network) moves data and applications closer to the end user — increasing speed, enhancing security, and improving the user experience.
+
+3.Why is React known as React?
+Ans. React is called "React" because of its core feature, which is its ability to "react" or respond dynamically to changes in data. React was originally created by Facebook in 2011 for use in their own web applications, and it was released as an open-source project in 2013.
+
+4. What is crossorigin in script tag?
+Ans. crossorigin ek HTML <script> tag me ek attribute hota hai jo security ke liye use hota hai jab aap kisi dusre domain se JavaScript files load kar rahe hain. Is attribute ko use karke aap browser ko batate hain ki yeh script file kis tarah se cross-origin requests ko handle karna chahiye.
+
+5. What is diference between React and ReactDOM?
+Ans. React is the library for building the UI components and managing application state, while ReactDOM is the library that enables React to interact with and manipulate the actual HTML elements in the web page. You typically include both React and ReactDOM when working with React applications.
+
+6.Diff between Async and Defer.
+Ans.  Jab hum  async keyword ya bina keyword ke program ko run karte hai to pahle html parse hota hai fir jaise hi script tag milta hai to wo use internet se fetch karta hai aur fir us script ko execute karta hai and then remain html parse hota hai. but in case of defer pahle html parse hota hai uske bad jaise hi usko script milta hai to html ke parallely script fetch hota hai and html parse hone aur script fetch hone ke baad script ka code execute hota hai.
+
+7. Difference between a Library and Framework?
+Ans -
+
+8. What is difference between react.development.js and react.production.js files via CDN?
+Ans.
