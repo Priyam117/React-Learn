@@ -25,9 +25,12 @@
 10. Manage Our Port Number and Https.
 11. Consistent Hashing Algorythms.
 12. Zero Config
+13. Tree Shaking --> Removing Unwanted Codes
 
 
 Transitive Dependencies(it is not part of parcel).
+
+Babel-plugin-transform-remove-console --> It remove the console.log from our code
 
 NOte--> We should put parcel.cached in git ignore (any thing wchich can is auto-generated or which we can generate on server  will be put inside git ignore).
 
