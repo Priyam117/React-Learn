@@ -1,0 +1,18 @@
+
+Babel ==>  plugin-transform-remove-console --> It remove the console.log from our code
+
+JSX ==> JSX is  a html like syntax, but it's not a html inside javascript. When we have write it in multiple line then include it inside the parenthesis. Facebook developers builds JSX. JSX use React.createElement and createElement convert (html like syntax) to object and object is rendered to html(DOM) with the help of babel. it enhance the readability. it's not a package that's why we didn't import it.Babel understand the JSX and conert it to.....
+
+Ex. "const heading = <h1 id="head">Namste React</h1>"
+  so JSX use React.createElement --> converted into object ---> objectis rendered to html DOM.
+
+## Component
+-------------
+Functional component is a nothing but a normal function. it return a jsx or react element.Name of any component always starts with capital letter it's good pratice.
+
+Note- If we use component inside a component this is called "Component Compozation".
+
+Ques. Diffrence between Html and JSX?
+
+
+Ques. How do we create img, nested children , html tag insiddde the babel? what is babel? how jsx is understand and read by babel ?
