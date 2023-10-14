@@ -1,5 +1,23 @@
-#root {
-  color: black;
-  background: yellow;
+.header{
+  display: flex;
+  padding: .1rem;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+.logo {
+  /* height: 80px;
+  width: 250px; */
   font-family: cursive;
+  color: orangered;
+  margin-left: 2rem;
+}
+.nav-item > ul{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.nav-item > ul > li {
+  padding: .7rem;
+  list-style: none;
 }
