@@ -1,0 +1,34 @@
+Important Note
+---------------
+1. JSX has return only one parent. this is called react fragment. it's cpming from react library. React.Fragment is like a empty tag.we can also write like empty tag
+(<React.Fragment>
+      <h1>Head</h1>
+ </React.Fragment>
+
+ OR
+ ---
+ <>
+   <h1>Head</h1>
+
+ </>)
+
+ 2. We can use multiple react Fragment or raect fragment inside the react fragment.
+Ex. ==>
+ import React from 'react';
+
+function MyComponent() {
+  return (
+    <>
+      <h1>Hello, World!</h1>
+      <>
+        <p>This is a nested fragment.</p>
+        <p>You can nest fragments to group elements.</p>
+      </>
+    </>
+  );
+}
+
+export default MyComponent;
+
+Config Driven UI ==>
+Optional Chaining
