@@ -1,14 +1,24 @@
 
-Babel ==>  plugin-transform-remove-console --> It remove the console.log from our code
+##Babel
+------------
+plugin-transform-remove-console --> It remove the console.log from our code. if we are using Babel through CDN then we have to informed the compiler that we are using JSX so inside the script tag write tupe attribute and its value should be "text/babelk".
+ex--> <script type="text/babel"> </script>
 
-JSX ==> JSX is  a html like syntax, but it's not a html inside javascript. When we have write it in multiple line then include it inside the parenthesis. Facebook developers builds JSX. JSX use React.createElement and createElement convert (html like syntax) to object and object is rendered to html(DOM) with the help of babel. it enhance the readability. it's not a package that's why we didn't import it.Babel understand the JSX and conert it to.....
+##JSX
+----------
 
-Ex. "const heading = <h1 id="head">Namste React</h1>"
+ JSX is  a html like syntax, but it's not a html inside javascript. When we have write it in multiple line then include it inside the parenthesis. Facebook developers builds JSX. JSX use React.createElement and createElement convert (html like syntax) to object and object is rendered to html(DOM) with the help of babel. it enhance the readability. it's not a package that's why we didn't import it.(Babel understand the JSX and conert it to.....)After compilation of JSX seprate file is created for html and js. before React v16.0 the React.createElement was responsible for compilition of JSX but after V16.0 they have introduced seprate JSX compiler for compile the JSX. it's build inside the babel package. For using JS inside the JSX , we use curly brackets like {var_Name , 12 , "stribg" , true etc...}.
+ Ex. "const heading = <h1 id="head">Namste React</h1>"
   so JSX use React.createElement --> converted into object ---> objectis rendered to html DOM.
 
-## Component
--------------
-Functional component is a nothing but a normal function. it return a jsx or react element.Name of any component always starts with capital letter it's good pratice.
+###Things that we can't do inside the JSX
+
+1. We can't define the function.
+2. We can't use any loop inside it.(we use predefined method like map , filter , reduce  for looping inside the JSX).
+
+##Functional Component
+-----------------------
+Functional component is a nothing but a normal function. it return a jsx or react element.Name of any component always starts with capital letter it's good pratice. We can return onlu one parent from one component or there should only one one parent of whole JSX in one component. We can call it like Self closing tag.
 
 Note- If we use component inside a component this is called "Component Compozation".
 
